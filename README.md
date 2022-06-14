@@ -1,3 +1,3 @@
 # odin-landing-page-project
 
-        this is a test, please play in a residential neighbourhood. 
+        This should be played at high volume, preferably in a residential area. 
