@@ -1,7 +1,9 @@
 body {
-    background-color: #1F2937;
-    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+      Verdana, sans-serif;
 }
+
 a {
     color: aliceblue;
     text-decoration: none;
@@ -10,9 +12,19 @@ a {
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
+    color: #e5e7eb;
+    font-size: 18px;
     display: flex;
     margin: 0;
     padding: 0;
@@ -21,9 +33,11 @@ ul {
 }
 
 .fwc1 {
-display: flex;
-justify-content: center;
-padding: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: #1F2937;
+    margin: 0px;
 }
 
 .hwc1 {
@@ -31,11 +45,32 @@ padding: 24px;
     flex: 1;
     display: flex;
     justify-content: end;
+    margin: 0
 }
 
 .hwc1text {
     max-width: 30vw;
     justify-content: end;
+}
+
+.landingtitle {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.landingtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.landingbutton {
+    background-color:#3882F6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    margin-top: 0px;
 }
 
 .hwc2 {
@@ -58,7 +93,6 @@ padding: 24px;
 }
 
 .fwc2   {
-    margin: 0;
     padding: 8px;
     text-align: center;
 
@@ -70,32 +104,87 @@ padding: 24px;
 }
 
 .infoboxes {
+   align-items: baseline; 
    display: flex;
    justify-content: center;
    flex-wrap: nowrap;
-   padding: 16px;
-   height: 300px;
    gap: 24px;
    
 }
 
+.boxes {
+    max-width: 250px;
+    
+}
+
 img.boxes {
-    border: 5px solid aliceblue;
+    border: 5px solid #1f2937;
     width: 225px;
-    height: auto;
     flex: 1 1 auto;
+    border-radius: 10px;
 
 }
 
 .fwc3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center ;
     height: 150px;
-   
+    background-color: #E5E7EB;
+    padding: 24px;
+    margin: 1px;
+}
+
+.quotetext {
+    margin: 0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.quotedperson {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1F2937;
+    max-height: 25px;
+    margin: 10px -340px 0px 0px ;
+    
+}
+ .fwc4 {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+ 
+ }
+.ctabox {
+    width: 66vw;
+    height: 17vh;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.ctatext {
+   margin-top: -15px;
+}
+
+.ctabutton {
+    border-radius: 5px;
+    background-color: #3882F6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-style: solid;
 }
 
 .footer {
-    text-align: center;
-    text-justify: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    min-height: 14vh;
+    color: #e5e7eb;
 }
