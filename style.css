@@ -97,6 +97,9 @@ ul {
     text-align: center;
 
 }
+ .infotitle {
+    margin-top: 8px;
+ }
 
 .infotext {
     padding: 0;
