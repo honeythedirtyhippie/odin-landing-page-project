@@ -1,9 +1,9 @@
 let userName = prompt("Username:","");
-if (userName==="jack") {
+if (userName==="tom") {
   
   let pass = prompt("Password:","");
-  if (pass === "offahorse") {
-    alert("WELCOME JACK!");
+  if (pass === "cruise") {
+    alert("hey, tc. how's it goin?");
   }
   else {
     alert ("Wrong Password, GIT! G'ON NOW!");
